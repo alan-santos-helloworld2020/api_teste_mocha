@@ -1,0 +1,33 @@
+GET http://localhost:3000
+Content-Type: application/json
+
+{
+    
+}
+###
+GET http://localhost:3000/0
+Content-Type: application/json
+
+{
+    
+}
+###
+POST  http://localhost:3000
+Content-Type: application/json
+
+{
+    "username":"fulano de tal",
+    "password":123
+}
+###
+DELETE http://localhost:3000/0
+Content-Type: application/json
+
+###
+PUT  http://localhost:3000/0
+Content-Type: application/json
+
+{
+    "username":"fulano de tal de logo alí",
+    "password":321
+}
