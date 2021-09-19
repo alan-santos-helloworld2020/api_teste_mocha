@@ -17,7 +17,7 @@ Content-Type: application/json
 
 {
     "username":"fulano de tal",
-    "password":123
+    "password":12355
 }
 ###
 DELETE http://localhost:3000/0
