@@ -20,12 +20,12 @@ describe('Users', () => {
         })
     })
     //************************************************* */
-    describe('POST /', () => {
+    describe('POST /',() => {
         var user = {
             username: "fulano de tal",
             password: 123
         }
-        it('Espero um objeto', (done) => {
+        it('Espero um objeto',(done) => {
             chai.request(server)
                 .post('/')
                 .send(user)
@@ -39,10 +39,10 @@ describe('Users', () => {
         })
     })
     //************************************************* */
-    describe('GET /:index', () => {
-        it('Espero um objeto', (done) => {
+    describe('GET /:index',() => {
+        it('Espero um objeto',(done) => {
             chai.request(server)
-                .get('/' + 0)
+                .get('/'+0)
                 .end((req, res) => {
                     res.should.have.status(200);
                     res.body.should.be.a('object');

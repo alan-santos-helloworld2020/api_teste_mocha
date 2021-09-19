@@ -5,7 +5,7 @@ Content-Type: application/json
     
 }
 ###
-GET http://localhost:3000/0
+GET http://localhost:3000/1
 Content-Type: application/json
 
 {
